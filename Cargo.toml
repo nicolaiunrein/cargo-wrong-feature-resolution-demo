@@ -1,0 +1,9 @@
+[workspace]
+members = [
+ "my-crate",
+ "my-crate/library",
+ "consumer"
+]
+
+resolver = "2"
+
