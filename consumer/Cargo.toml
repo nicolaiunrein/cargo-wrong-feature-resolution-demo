@@ -5,7 +5,8 @@ edition = "2021"
 
 [dependencies]
 # this line errors
-my-crate = { path = "../my-crate/library", package = "my-crate-library" }
+# my-crate = { path = "../my-crate/library", package = "my-crate-library" }
+my-crate = { path = "../my-crate", package = "my-crate" }
 
 # this works
 my-crate-library = { path = "../my-crate/library" }
